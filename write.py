@@ -20,4 +20,4 @@ def write_inventory(inventory):
                     file.write(',' + str(value))
                 file.write("\n")
     except Exception:
-        print("Error while writing inventory to file.")
+        print("Error while writing inventory to file.") 

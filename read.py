@@ -20,7 +20,7 @@ def read_inventory(filepath):
         with open(filepath) as file:
             products = file.readlines()
             for product in products:
-                if not product.strip():
+                if not product.strip(): 
                     continue
                 item = product.strip().split(",")
                 inventory_dict[item[0]] = [item[1], item[2], int(item[3]), item[4], float(item[5])]

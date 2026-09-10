@@ -2,7 +2,7 @@
 
 from read import read_inventory
 from read import display_inventory
-from transaction import sell_product
+from transaction import sell_product 
 from transaction import restock_inventory
 from transaction import purchase_product
 

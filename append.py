@@ -10,7 +10,7 @@ def append_inventory(inventory):
     Parameters:
         inventory: A dictionary of product ids mapped to their inventory data.
     """
-    try:
+    try: 
         # Open the file in append mode so we do not overwrite earlier records.
         with open("inventory.txt", "a") as file:
             for key, values in inventory.items():

@@ -4,7 +4,7 @@ from read import display_inventory, read_inventory
 from write import write_inventory
 from append import append_inventory
 from invoice import restock_invoice, sale_invoice, purchase_invoice
-import datetime
+import datetime 
 
 def sell_product(inventory):
     """Process a customer sale and update the stock list in memory.

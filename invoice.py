@@ -1,7 +1,7 @@
 """Generate sales, restock, and purchase invoices for the store."""
 
 import datetime
-
+ 
 def sale_invoice(name, sold_items, final_price):
     """Create a sales invoice file for a customer purchase.
 
